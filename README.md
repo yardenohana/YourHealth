@@ -1,5 +1,8 @@
 # YourHealth
 
+![skeleton_logo](https://user-images.githubusercontent.com/69144526/129626524-6991c727-0ac0-4c8b-ad16-8594fdc84c5c.png)
+* Designed by Shiri Katz.
+
 ## About
 The 'YourHealth' app brings a simple and interactive interface for performing training and maintaining a healthy lifestyle. It is sometimes difficult for us to conduct training comfortably, and to keep track of our body, especially during the covid. From this need, came the idea to build an app that will allow training management, tracking the number of steps, as well as weight and height.
 
