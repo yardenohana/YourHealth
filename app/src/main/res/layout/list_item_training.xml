@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="12dp"
+            android:textSize="20sp"
+            android:id="@+id/TrainingExerciseName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:id="@+id/TrainingDate" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="duration"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:id="@+id/TrainingDuration" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sets:"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sets"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:id="@+id/TrainingSets" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Repeats:"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reps"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:id="@+id/TrainingReps" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight:"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="weight"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:id="@+id/TrainingWeight" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

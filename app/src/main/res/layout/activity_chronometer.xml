@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".chronometerActivity"
+    android:gravity="center"
+    android:padding="100dp">
+
+    <Chronometer
+        android:id="@+id/my_chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:background="@drawable/search_design"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/startChrono"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:textSize="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttons_design"
+            app:backgroundTint="@null"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/pauseChrono"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:layout_marginBottom="5dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/buttons_design"
+            app:backgroundTint="@null"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/resetChrono"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textSize="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttons_design"
+            app:backgroundTint="@null"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/EndTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttons_design_pink"
+        app:backgroundTint="@null"
+        android:text="End training"/>
+
+</LinearLayout>

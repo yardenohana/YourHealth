@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/profile_group" >
+
+        <item android:id="@+id/Profile_nav"
+            android:title="My profile"
+            android:icon="@drawable/ic_username" />
+
+    </group>
+
+    <item android:id="@+id/Workout_nav"
+        android:title="Workout"
+        android:icon="@drawable/ic_workout" />
+
+    <item android:id="@+id/Exercises_nav"
+        android:title="Exercises"
+        android:icon="@drawable/ic_exercise" />
+
+    <item android:id="@+id/Weight_track_nav"
+        android:title="Weight track"
+        android:icon="@drawable/ic_weight_track" />
+
+    <!--
+        <item android:id="@+id/Body_track_nav"
+        android:title="Body track"
+        android:icon="@drawable/ic_body_track" />
+
+    <item android:id="@+id/Settings_nav"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings" />
+    -->
+
+    <item android:id="@+id/About_nav"
+        android:title="About"
+        android:icon="@drawable/ic_about" />
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ExercisesFragment"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchViewExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_design"
+        app:iconifiedByDefault="false"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        app:queryHint="Search exercise" />
+
+    <ProgressBar
+        android:id="@+id/progressExercises"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="12dp" />
+
+    <ListView
+        android:id="@+id/ListOfExercises"
+        android:layout_width="wrap_content"
+        android:background="@drawable/search_design"
+        android:visibility="invisible"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/selectExerciseError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

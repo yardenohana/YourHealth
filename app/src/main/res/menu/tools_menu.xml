@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/SideBarButton"
+        android:title="Sidebar"
+        android:icon="@drawable/ic_sidebar"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/Profile"
+        android:icon="@drawable/ic_username"
+        android:title="Profile"
+        app:showAsAction="always" >
+
+        <menu>
+            <item android:id="@+id/CreateNewProfile"
+                android:title="Create new profile"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/ChangeProfile"
+                android:title="Change profile"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/DeleteProfile"
+                android:title="Delete profile"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/ResetApp"
+        android:title="Reset application"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/exportRecords"
+        android:title="Export records"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/About"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>
